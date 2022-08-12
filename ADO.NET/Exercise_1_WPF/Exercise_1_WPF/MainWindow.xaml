@@ -1,0 +1,20 @@
+﻿<Window x:Class="Exercise_1_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise_1_WPF"
+        mc:Ignorable="d"
+        Title="[162000971]Nguyen Trong Kien Coding" Height="600" Width="950">
+    <Grid>
+        <TextBlock Text="PHẦN MỀM ĐĂNG KÍ LỊCH CÔNG TÁC"
+            FontSize="18"
+            Width="auto"
+            Height="50"
+            TextAlignment="Center"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            
+        />
+    </Grid>
+</Window>
