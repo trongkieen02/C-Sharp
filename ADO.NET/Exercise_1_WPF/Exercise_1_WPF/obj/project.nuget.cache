@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hsJUk/y60Y4v/fXm0pwvmVxJg54Ksk/rH3Tj4Tk/bT/gC5+lXVtaYITtdVVovslgHwRMcROgXdRZvxYXnzKFGg==",
+  "dgSpecHash": "4M7bqKdWmpdIoPCYC0LQvO1gxKRvdl3PhKib5CepVjUlZtkrb4pClucrX/Mi7Is8h0M4l57l/FkhC9lwJbJaBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\k1nep\\OneDrive\\Documents\\GitHub\\C-Sharp\\ADO.NET\\Exercise_1_WPF\\Exercise_1_WPF\\Exercise_1_WPF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\k1nep\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
+    "C:\\Users\\k1nep\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

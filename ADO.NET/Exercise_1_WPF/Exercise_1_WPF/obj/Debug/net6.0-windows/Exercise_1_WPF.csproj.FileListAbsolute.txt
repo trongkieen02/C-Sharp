@@ -19,3 +19,7 @@ C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise
 C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise_1_WPF\obj\Debug\net6.0-windows\Exercise_1_WPF.pdb
 C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise_1_WPF\obj\Debug\net6.0-windows\Exercise_1_WPF.genruntimeconfig.cache
 C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise_1_WPF\obj\Debug\net6.0-windows\ref\Exercise_1_WPF.dll
+C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise_1_WPF\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise_1_WPF\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise_1_WPF\obj\Debug\net6.0-windows\App.baml
+C:\Users\k1nep\OneDrive\Documents\GitHub\C-Sharp\ADO.NET\Exercise_1_WPF\Exercise_1_WPF\obj\Debug\net6.0-windows\Exercise_1_WPF.csproj.CopyComplete

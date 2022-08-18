@@ -4,17 +4,89 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exercise_1_WPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="[162000971]Nguyen Trong Kien Coding" Height="600" Width="950">
-    <Grid>
-        <TextBlock Text="PHẦN MỀM ĐĂNG KÍ LỊCH CÔNG TÁC"
-            FontSize="18"
-            Width="auto"
-            Height="50"
-            TextAlignment="Center"
-            VerticalAlignment="Top"
-            HorizontalAlignment="Center"
-            
-        />
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        
+        FontFamily="Microsoft YaHei Light"
+        Left="0"
+        SizeToContent="Width"
+        TextElement.FontSize="18"
+        TextElement.FontFamily="Microsoft YaHei Light"
+        Title="Form Đăng Kí Lịch Công Tác" 
+        
+        >
+
+
+    <Grid x:Name="MainGrid" Width="auto">
+        <materialDesign:Card Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="500" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
+
+                <ScrollViewer 
+                x:Name="AccountsScrollViewer"
+                Grid.Row="0">
+                    <DataGrid
+                    x:Name="AccountsDataGrid"
+                    d:ItemsSource="{d:SampleData ItemCount=5}"
+                    Margin="5"
+                    AutoGenerateColumns="False"
+                    CanUserAddRows="False"
+                    CanUserDeleteRows="False"
+                    IsReadOnly="True"
+                    >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding number}" Header="STT"  />
+
+                            <DataGridTextColumn Binding="{Binding date}" Header="Từ" />
+
+                            <DataGridTextColumn Binding="{Binding date}" Header="Đến" />
+
+                            <DataGridTextColumn Binding="{Binding string}" Header="Lí Do" />
+
+                            <DataGridTextColumn Binding="{Binding username}" Header="Người Đăng Kí" />
+
+                            <DataGridTextColumn Binding="{Binding string}" Header="Diễn Giải" />
+                        </DataGrid.Columns>
+
+                    </DataGrid>
+                </ScrollViewer>
+
+                <materialDesign:Card Grid.Row="1" Margin="5">
+                    <StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <TextBox
+                                    x:Name="TextBoxSearch"
+                                    Margin="5" FontSize="14"
+                                    materialDesign:HintAssist.Hint="Tìm kiếm theo tên người đăng kí"
+                                     />
+
+                            <Button
+                                    x:Name="ButtonSearch"
+                                    Grid.Column="1"
+                                    Margin="5"
+                                    Content="Tìm Kiếm" />
+                        </Grid>
+                        <Expander Header="Đăng Kí">
+                            <Grid x:Name="GridControl"
+                                    Focusable="True"
+                                   >
+                              
+                            </Grid>
+                        </Expander>
+                    </StackPanel>
+                </materialDesign:Card>
+
+            </Grid>
+        </materialDesign:Card>
     </Grid>
 </Window>
